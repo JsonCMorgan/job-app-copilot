@@ -55,7 +55,15 @@ def main():
         print(tailor_application(full_job_description))
     elif choice == "2":
         print("You chose to load from a file.")
-        
+        file_path = input("Enter the path to the text file: ")
+        try:
+            with open(file_path, "r") as f:
+                job_description_text = f.read()
+        except FileNotFoundError:
+            print("File not found. Please check the path and try again.")
+            return 
+        print("Job description loaded successfully from file.")
+        print(tailor_application(job_description_text))       
     else:
         print("Invalid choice. Please run the program again.")
     
