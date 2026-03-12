@@ -36,5 +36,30 @@ Please provide:
 Be specific and match the language of the job description.
 """
     return call_claude(prompt)
+def main():
+    print("How would you like to provide the job description?")
+    print("1. Paste job description into this window")
+    print("2. Load job description from a text file")
+    choice = input("Enter 1 or 2: ")
+    if choice == "1":
+        print("Paste the job description. Press enter on an empty line when you're done.")
+        job_description = []
+        while True:
+            line = input()
+            if line == "":
+                break
+            job_description.append(line)
+            
+        full_job_description = "\n".join(job_description)
+        print("Job description loaded successfully.")
+        print(tailor_application(full_job_description))
+    elif choice == "2":
+        print("You chose to load from a file.")
+        
+    else:
+        print("Invalid choice. Please run the program again.")
+    
+if __name__ == "__main__":
+    main()
 
 
