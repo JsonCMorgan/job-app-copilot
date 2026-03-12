@@ -1,0 +1,45 @@
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | github.com/JsonCMorgan | linkedin.com/in/jason-morgan-110656289
+
+PROFESSIONAL SUMMARY
+Internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience in SIEM workflows, vulnerability scanning, Docker-based security labs, OpenVPN deployment, and Python automation. Deep understanding of LAO's operational environment, privacy standards, and secure digital processes. Passionate about applying cybersecurity training to protect the systems and infrastructure I already work within.
+
+CORE SKILLS
+SIEM Monitoring • Vulnerability Scanning • Incident Response • Python Scripting • Docker Labs • GitHub • OpenVPN • Log Analysis • Linux/Ubuntu • Endpoint Security • Patch Management • Threat Analysis • Security Reporting • Secure Coding Principles
+
+HANDS-ON SECURITY LABS EXPERIENCE
+
+Personal Security Lab Environment (Docker + SIEM)
+Simulated network traffic and security events to practice log analysis, vulnerability detection, and incident response workflows.
+
+OpenVPN Secure Network Deployment
+Configured and deployed VPN server to gain practical experience with encryption, tunneling, and secure communication protocols.
+
+Created an AI Tutor & Quiz Bot (Python)
+Built Python application to reinforce cybersecurity learning and automation relevant to security tooling.
+
+Boot.dev Backend & Python Projects
+Completed backend and Python projects focused on data handling, logic, and secure coding practices, documented on GitHub.
+
+PROFESSIONAL EXPERIENCE
+
+Client Service Specialist — Legal Aid Ontario
+Aug 2024 – Present
+Operate daily within LAO's secure digital systems handling highly sensitive client information under strict privacy and documentation standards. Experienced in following procedural controls, escalating system issues, and working within a government-regulated IT environment. Strong familiarity with internal processes, risk awareness, and cross-department collaboration. Regularly works within systems that manage highly sensitive client data, reinforcing strong awareness of privacy, risk, and secure handling practices.
+
+Customer Solutions Specialist — Rogers Communications
+2002 – 2023
+Diagnosed complex technical issues across networks and systems, interpreted logs, and applied structured troubleshooting in high-pressure environments.
+
+Security Supervisor / Guard — London & Whitby, ON
+2005 – 2010
+Led incident response and investigations, documenting findings and managing high-risk situations requiring situational awareness and risk assessment.
+
+EDUCATION & CERTIFICATIONS
+Advanced Cybersecurity Program — York University (2025)
+(ISC)² Certified in Cybersecurity (CC)
+Microsoft Excel Certification (Udemy)
+
+PROFESSIONAL DEVELOPMENT
+Ongoing hands-on training in Python, Docker, and backend security through Boot.dev and personal lab environments.
