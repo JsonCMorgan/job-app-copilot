@@ -16,4 +16,25 @@ def call_claude(prompt):
         messages=[{"role": "user", "content": prompt}]
     )
     return message.content[0].text
+def tailor_application(job_description):
+    resume = read_resume()
+    prompt = f"""
+You are a professional job application assistant.
+Your task is to tailor my resume to the job description.
+
+Here is my resume:
+{resume}
+
+Here is the job description:
+{job_description}
+
+Please provide:
+1. A tailored professional summary (3-4 sentences)
+2. 5 tailored bullet point rewrites from my experience
+3. A cover letter draft
+
+Be specific and match the language of the job description.
+"""
+    return call_claude(prompt)
+
 
