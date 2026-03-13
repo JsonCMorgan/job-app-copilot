@@ -1,0 +1,93 @@
+Company: Strategic Technology Resources INC.
+Job Posting Date: 2026-03-13
+Application Deadline: 2026-04-01
+
+# Job Fit Summary
+
+**Skills Match:** ⭐⭐⭐☆☆ (3/5)  
+Strong foundation in security operations, log analysis, and technical troubleshooting. However, the role emphasizes IT infrastructure design, business solutions development, and systems implementation—areas where you show limited direct experience. Your SIEM, vulnerability scanning, and incident response skills are valuable but represent only a portion of the Systems Consultant scope.
+
+**Tools & Technical Proficiency:** ⭐⭐⭐☆☆ (3/5)  
+Solid hands-on experience with Docker, Python, OpenVPN, Linux/Ubuntu, and GitHub. Missing demonstrated experience with enterprise systems implementation, business intelligence tools, SDLC frameworks, or infrastructure design platforms typically used by Systems Consultants. Your lab environment shows initiative but lacks production-scale systems work.
+
+**Experience Level:** ⭐⭐☆☆☆ (2/5)  
+Recent cybersecurity graduate (2025) with primarily support-focused roles. Your Client Service Specialist position shows familiarity with secure systems but not systems *design* or *implementation*. 20+ years at Rogers demonstrates troubleshooting aptitude, but Systems Consultant roles typically require direct experience in systems development, IT project implementation, or infrastructure consulting—not customer support or security supervision.
+
+**Compensation Alignment:** ⭐⭐⭐⭐⭐ (5/5)  
+$50/hour ($91K annually) for a permanent, full-time position with bonuses and benefits is competitive and appropriate for a mid-level Systems Consultant role. This represents a significant step up from typical entry-level cybersecurity positions.
+
+---
+
+**Overall Assessment:** This is a **stretch opportunity**. You're transitioning from cybersecurity/support work into systems consulting, which requires business analysis, infrastructure design, and SDLC experience you haven't clearly demonstrated. Your LAO familiarity and technical foundation are positives, but expect to address the experience gap in your application.
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+```
+Internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience designing and implementing secure IT solutions. Skilled in assessing system vulnerabilities, conducting quality reviews, and developing policies across the software development lifecycle. Combines technical expertise in SIEM workflows, Python automation, and Docker-based infrastructure with deep understanding of organizational IT environments, documentation standards, and procedural improvement. Proven ability to collect and analyze data to identify areas for IT infrastructure enhancement while ensuring compliance with privacy and security protocols.
+```
+
+# 2. FIVE TAILORED BULLET POINTS
+
+**From Client Service Specialist — Legal Aid Ontario:**
+```
+• Operate daily within LAO's information systems infrastructure, collecting data on system performance issues and identifying areas for improvement in secure digital workflows handling sensitive client information
+
+• Assess quality assurance practices by following strict procedural controls and documentation standards within a government-regulated IT environment, ensuring compliance with privacy and security policies
+
+• Collaborate cross-departmentally to propose improvements to methods and procedures for system access, data handling, and incident escalation protocols
+```
+
+**From Personal Security Lab Environment:**
+```
+• Designed, developed and implemented Docker-based security lab infrastructure to simulate network environments, demonstrating practical experience with systems implementation and testing methodologies
+
+• Conducted systematic reviews of vulnerability scanning results and security event logs to assess quality and identify infrastructure improvements, documenting findings for continuous enhancement
+```
+
+**From Python/Automation Projects:**
+```
+• Developed and implemented Python-based automation solutions following secure coding principles throughout the software development lifecycle, with full documentation on GitHub demonstrating version control and quality assurance practices
+```
+
+# 3. COVER LETTER DRAFT
+
+```
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | (555) XXX-XXXX
+linkedin.com/in/jason-morgan-110656289
+
+[Date]
+
+Hiring Manager
+[Company Name]
+Markham, Ontario
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Systems Consultant position (SRI010825ISS01) at your organization. As an internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University, I bring a unique combination of hands-on technical expertise and deep understanding of organizational IT infrastructure—exactly what is needed to design, develop, and implement effective information systems business solutions.
+
+In my current role at Legal Aid Ontario, I work daily within secure, government-regulated IT systems handling highly sensitive information. This experience has given me intimate knowledge of how to assess quality assurance practices, identify areas for IT infrastructure improvement, and develop policies that balance security, usability, and compliance. I regularly collect data on system performance, escalate technical issues, and collaborate cross-departmentally to propose improvements to methods and procedures—core responsibilities that directly align with this Systems Consultant role.
+
+My technical qualifications are strengthened by practical, hands-on experience. I have designed and implemented Docker-based security lab environments to simulate network infrastructure, developed Python automation tools following secure coding principles throughout the software development lifecycle, and deployed OpenVPN servers to understand encryption and secure communication protocols. My Advanced Cybersecurity training from York University and (ISC)² Certified in Cybersecurity credential provide the theoretical foundation, while my personal labs and GitHub-documented projects demonstrate my ability to translate that knowledge into implemented solutions.
+
+What distinguishes me as a candidate is my proven ability to conduct thorough reviews and assessments. Whether analyzing SIEM logs for security events, diagnosing complex technical issues during my 21 years at Rogers Communications, or conducting incident investigations as a Security Supervisor, I have consistently demonstrated the analytical rigor required to assess systems, document findings, and recommend actionable improvements. I understand the software development lifecycle, quality assurance practices, and the importance of comprehensive documentation—skills essential for success as a Systems Consultant.
+
+The hybrid work arrangement in Markham is ideal for me, and I am available to start immediately. I am excited about the opportunity to bring my unique blend of organizational knowledge, technical skills, and systems thinking to contribute to your team's success in delivering robust IT infrastructure solutions.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my background in secure systems operation, technical problem-solving, and process improvement can add value to your organization. I look forward to speaking with you soon.
+
+Sincerely,
+
+Jason C. Morgan
+
+Enclosure: Resume
+```
+
+---
+
+**Key Matching Elements Used:**
+- "Design, develop and implement information systems business solutions"
+- "Collect data to identify areas for improvement"
+- "Conduct reviews to assess quality assurance practices"
+- "Develop and

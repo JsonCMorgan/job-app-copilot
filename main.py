@@ -44,7 +44,13 @@ def build_header(company_name, job_posting_date, application_deadline):
         f"Application Deadline: {application_deadline}\n\n"
     )
     return header
+def score_fit(resume_text, job_description):
+    prompt = f"""You are a professional resume scoring assistant."""
+    prompt += "\n\nOUTPUT FORMAT: Return a section titled 'Job Fit Summary' with lines for Skills, Tools, Experience, and Compensation. Use 1-5 stars and include (X/5)."
+    prompt += f"\n\nHere is the resume:\n{resume_text}\n\nHere is the job description:\n{job_description}"
+    return call_claude(prompt)
 def main():
+    resume_text = read_resume()
     print("How would you like to provide the job description?")
     print("1. Paste job description into this window")
     print("2. Load job description from a text file")
@@ -70,9 +76,10 @@ def main():
         full_job_description = "\n".join(job_description)
         print("Job description loaded successfully.")
         application_text = tailor_application(full_job_description)
+        fit_summary = score_fit(resume_text, full_job_description)
         output_path = os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
         with open(output_path, "w") as f:
-            f.write(header + application_text)
+            f.write(header + fit_summary + "\n\n" + application_text)
         print(f"Saved to {output_path}")
         print(application_text)
     elif choice == "2":
@@ -85,9 +92,10 @@ def main():
             print("File not found. Please check the path and try again.")
             return 
         application_text = tailor_application(job_description_text)
+        fit_summary = score_fit(resume_text, job_description_text)
         output_path = os.path.join("outputs", f"application_{today_str}.txt")
         with open(output_path, "w") as f:
-            f.write(header + application_text)
+            f.write(header + fit_summary + "\n\n" + application_text)
         print(f"Saved to {output_path}")
         print(application_text)
               
