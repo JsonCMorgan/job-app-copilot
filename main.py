@@ -44,6 +44,15 @@ def main():
     choice = input("Enter 1 or 2: ")
     os.makedirs("outputs", exist_ok=True)
     today_str = datetime.date.today().strftime("%Y-%m-%d")
+    company_name = input("Enter the Company Name: ")
+    job_posting_date = input("Enter the job posting date (YYYY-MM-DD): ")
+    application_deadline = input("Enter the application deadline (YYYY-MM-DD): ")
+    safe_company = company_name.lower().replace(" ", "_")
+    header = (
+        f"Company: {company_name}\n"
+        f"Job posting date: {job_posting_date}\n"
+        f"Application deadline: {application_deadline}\n\n"
+    )
     if choice == "1":
         print("Paste the job description. Press enter on an empty line when you're done.")
         job_description = []
@@ -56,9 +65,9 @@ def main():
         full_job_description = "\n".join(job_description)
         print("Job description loaded successfully.")
         application_text = tailor_application(full_job_description)
-        output_path = os.path.join("outputs", f"application_{today_str}.txt")
+        output_path = os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
         with open(output_path, "w") as f:
-            f.write(application_text)
+            f.write(header + application_text)
         print(f"Saved to {output_path}")
         print(application_text)
     elif choice == "2":
@@ -73,7 +82,7 @@ def main():
         application_text = tailor_application(job_description_text)
         output_path = os.path.join("outputs", f"application_{today_str}.txt")
         with open(output_path, "w") as f:
-            f.write(application_text)
+            f.write(header + application_text)
         print(f"Saved to {output_path}")
         print(application_text)
               

@@ -1,0 +1,59 @@
+# Tailored Resume Components
+
+## 1. Professional Summary
+
+Compassionate professional with proven experience supporting vulnerable populations through Legal Aid Ontario and 21+ years in client-facing roles requiring cultural sensitivity, crisis management, and system navigation. Advanced training in assessment, documentation, and secure handling of sensitive personal information within regulated environments. Skilled at collaborating across interdisciplinary teams to connect clients with resources, advocate for their needs, and help overcome barriers to essential services. Committed to patient-centered care and holistic support in a collaborative primary care setting.
+
+## 2. Five Tailored Bullet Points from Experience
+
+**From Client Service Specialist — Legal Aid Ontario:**
+- Conduct comprehensive client assessments daily, gathering sensitive social, financial, and personal information to determine eligibility and connect clients with appropriate legal resources and support services
+- Navigate complex government and social service systems on behalf of vulnerable clients, providing advocacy and coordinating with community partners to address barriers to access
+- Maintain detailed case documentation in compliance with strict privacy regulations, ensuring continuity of care and adherence to procedural standards in a regulated healthcare-adjacent environment
+
+**From Customer Solutions Specialist — Rogers Communications:**
+- Provided empathetic client support to diverse populations experiencing technical and service disruptions, de-escalating high-stress situations and building trust through active listening and culturally responsive communication
+- Collaborated with cross-functional teams to resolve complex client concerns, advocating for customer needs and coordinating resources to achieve timely, holistic solutions
+
+**From Security Supervisor / Guard:**
+- Led crisis intervention and incident response in high-risk situations, applying situational awareness, de-escalation techniques, and sound judgment to ensure safety and well-being of individuals in distress
+
+---
+
+## 3. Cover Letter Draft
+
+**Jason C. Morgan**  
+Toronto, Ontario  
+json.c.morgan@gmail.com | linkedin.com/in/jason-morgan-110656289
+
+**Hiring Manager**  
+Get Well Family Health Team  
+[Address if available]
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the **Social Service Case Worker** position at Get Well Family Health Team. With hands-on experience supporting vulnerable clients at Legal Aid Ontario, over two decades of client-centered problem-solving, and a deep commitment to holistic, compassionate care, I am excited about the opportunity to contribute to your interprofessional primary care team.
+
+In my current role as a **Client Service Specialist at Legal Aid Ontario**, I conduct daily assessments of clients facing financial hardship, social barriers, and legal crises. I navigate complex government and community systems to connect clients with resources, advocate on their behalf, and maintain meticulous documentation under strict privacy standards. This work has strengthened my ability to build trust with diverse populations, assess multifaceted needs, and collaborate with interdisciplinary professionals to deliver coordinated, patient-centered support.
+
+Prior to LAO, I spent over 21 years at Rogers Communications, where I honed my skills in active listening, de-escalation, and empathetic client engagement in high-pressure, fast-paced environments. I also served as a Security Supervisor, leading crisis response and risk assessments that required sound judgment, cultural sensitivity, and a calm, solution-focused approach—skills directly transferable to supporting patients navigating health and wellness challenges.
+
+I am drawn to Get Well Family Health Team's commitment to interprofessional collaboration and culturally responsive care. I thrive in team-based environments where I can advocate for individuals, remove barriers to wellness, and contribute to the holistic health outcomes that define quality primary care.
+
+I would welcome the opportunity to discuss how my experience in assessment, advocacy, system navigation, and interprofessional collaboration can support your patients and team. Thank you for considering my application.
+
+Warm regards,
+
+**Jason C. Morgan**
+
+---
+
+### Key Changes Made:
+- **Removed all cybersecurity content** (SIEM, Docker, Python, etc.)—not relevant to social work
+- **Emphasized social service skills**: assessment, advocacy, system navigation, case documentation, crisis intervention
+- **Mirrored job description language**: "patient-centered," "interprofessional," "culturally responsive," "holistic care," "barriers to health"
+- **Highlighted LAO experience** as most relevant (vulnerable populations, eligibility assessments, privacy compliance)
+- **Reframed Rogers experience** around empathy, de-escalation, and client support
+- **Positioned security experience** as crisis intervention and risk assessment
+
+Let me know if you'd like me to adjust the tone or emphasis!
