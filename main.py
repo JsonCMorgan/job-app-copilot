@@ -47,6 +47,7 @@ def build_header(company_name, job_posting_date, application_deadline):
 def score_fit(resume_text, job_description):
     prompt = f"""You are a professional resume scoring assistant."""
     prompt += "\n\nOUTPUT FORMAT: Return a section titled 'Job Fit Summary' with lines for Skills, Tools, Experience, and Compensation. Use 1-5 stars and include (X/5)."
+    prompt += "\n\nAlso include a section titled 'Gaps' listing skills or tools the job requires that are not clearly shown on the resume. List one per line."
     prompt += f"\n\nHere is the resume:\n{resume_text}\n\nHere is the job description:\n{job_description}"
     return call_claude(prompt)
 def main():
@@ -93,7 +94,7 @@ def main():
             return 
         application_text = tailor_application(job_description_text)
         fit_summary = score_fit(resume_text, job_description_text)
-        output_path = os.path.join("outputs", f"application_{today_str}.txt")
+        output_path = os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
         with open(output_path, "w") as f:
             f.write(header + fit_summary + "\n\n" + application_text)
         print(f"Saved to {output_path}")

@@ -1,0 +1,113 @@
+Company: Procom
+Job Posting Date: 2026-03-13
+Application Deadline: 2026-04-01
+
+# Job Fit Summary
+
+**Skills:** ⭐⭐⭐☆☆ (3/5)  
+Jason demonstrates foundational cybersecurity skills including SIEM monitoring, incident response, vulnerability scanning, and threat analysis. However, the resume shows mostly lab/personal project experience rather than professional cybersecurity work in an enterprise banking environment.
+
+**Tools:** ⭐⭐⭐☆☆ (3/5)  
+Shows experience with Docker, OpenVPN, Python, Linux/Ubuntu, and SIEM systems in lab environments. Missing specific enterprise security tools commonly used in banking (e.g., specific SIEM platforms like Splunk/QRadar, EDR solutions, DLP tools).
+
+**Experience:** ⭐⭐☆☆☆ (2/5)  
+No direct professional cybersecurity analyst experience. Current role at Legal Aid Ontario provides relevant context with secure systems and privacy standards, and 21 years at Rogers shows technical troubleshooting capability, but lacks hands-on security operations center (SOC) or cybersecurity analyst work history.
+
+**Compensation:** ⭐⭐⭐⭐☆ (4/5)  
+Recent Advanced Cybersecurity graduate with (ISC)² CC certification and strong transferable skills from technical support background. Good entry-to-intermediate level candidate for a 6-month contract analyst role, though limited professional security experience may impact compensation negotiation.
+
+---
+
+# Gaps
+
+- Enterprise SIEM platform experience (Splunk, QRadar, LogRhythm, or similar)
+- Banking/financial sector security experience or knowledge of financial regulations
+- Security case management system experience (ServiceNow, Jira, etc.)
+- EDR/XDR platform experience (CrowdStrike, Carbon Black, Defender for Endpoint)
+- Network security tools (firewalls, IDS/IPS, proxy systems)
+- Data Loss Prevention (DLP) tools and policies
+- Professional SOC or security operations experience
+- Multi-stakeholder coordination in enterprise security incidents
+- Threat intelligence platform experience
+- Security orchestration and automation (SOAR) tools
+- Enterprise vulnerability management platforms (Qualys, Tenable, Rapid7)
+- Cloud security experience (AWS, Azure, GCP)
+- Professional experience remediating and containing security events at scale
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+```
+IT Cybersecurity professional with Advanced Cybersecurity graduate credentials from York University and hands-on experience in SIEM workflows, threat analysis, and incident response. Currently employed at Legal Aid Ontario handling sensitive data within secure government-regulated IT environments, with deep understanding of privacy controls and risk containment protocols. Proven ability to coordinate multiple technical issues simultaneously through 21+ years of technical troubleshooting at Rogers Communications. Combines practical security lab experience in vulnerability scanning, Python automation, and Docker-based environments with strong cross-functional collaboration skills essential for fast-paced cybersecurity operations.
+```
+
+---
+
+# 2. FIVE TAILORED BULLET POINTS
+
+**From Client Service Specialist — Legal Aid Ontario:**
+
+```
+• Coordinate daily operations within LAO's secure digital systems managing highly sensitive client data, applying strict privacy controls and security protocols aligned with government regulatory requirements—directly supporting security case management and data risk mitigation
+
+• Collaborate across departments to escalate and resolve system security issues, demonstrating ability to communicate clear, accurate statuses on problems while maintaining excellent customer service standards in a regulated environment
+```
+
+**From Customer Solutions Specialist — Rogers Communications:**
+
+```
+• Diagnosed and remediated complex technical issues across network infrastructure for 21 years, interpreting system logs and applying structured troubleshooting methodologies in fast-paced, high-pressure environments with multiple concurrent cases
+
+• Stayed continuously informed about emerging technical threats and vulnerabilities impacting telecommunications systems and customers, providing timely solutions across multiple technology domains
+
+• Collaborated cross-functionally with technical teams and business lines to solve complex network and system problems, consistently delivering clear communication on issue resolution and status updates
+```
+
+---
+
+# 3. COVER LETTER DRAFT
+
+```
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | (647) XXX-XXXX
+linkedin.com/in/jason-morgan-110656289
+
+[Date]
+
+Hiring Manager
+Procom / Banking Client
+Toronto, ON
+
+Re: IT Cybersecurity Analyst – 6 Month Contract
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the IT Cybersecurity Analyst position with your banking client. As an Advanced Cybersecurity graduate from York University with (ISC)² Certified in Cybersecurity credentials, combined with current hands-on experience managing sensitive data in secure government systems at Legal Aid Ontario, I am well-positioned to contribute immediately to your IS&C Cybersecurity team's mission to remediate and contain security events.
+
+My current role at Legal Aid Ontario has provided me with daily exposure to highly sensitive data environments where privacy controls, security protocols, and risk awareness are paramount. I operate within government-regulated IT systems that demand strict adherence to security standards—experience that translates directly to the banking sector's regulatory requirements. This foundation, combined with my technical expertise in SIEM monitoring, vulnerability scanning, incident response workflows, and Python automation developed through intensive hands-on labs, positions me to effectively handle data and security cases across your organization's security controls.
+
+What distinguishes my candidacy is my proven ability to coordinate multiple complex issues simultaneously in fast-paced environments. During my 21-year tenure at Rogers Communications, I diagnosed and remediated intricate network and system problems while maintaining clear communication with stakeholders—skills directly applicable to managing multiple threats and providing accurate status updates on security cases. I consistently stayed informed about emerging threats impacting customers and collaborated cross-functionally to solve problems spanning multiple technology domains, precisely the collaborative approach your role requires.
+
+My practical security experience includes:
+• Building Docker-based security lab environments to practice log analysis and incident response workflows
+• Deploying OpenVPN infrastructure to understand encryption and secure communication protocols
+• Developing Python automation tools relevant to security operations
+• Conducting vulnerability scanning and threat analysis in simulated network environments
+
+I am particularly excited about this opportunity because it combines my technical cybersecurity training with my proven track record in customer service, cross-organizational collaboration, and fast-paced problem resolution. The hybrid Toronto location is ideal, and I am immediately available to begin this 6-month contract.
+
+I would welcome the opportunity to discuss how my combination of current secure-environment experience, cybersecurity training, and extensive technical troubleshooting background can contribute to your banking client's IS&C Cybersecurity team. Thank you for considering my application.
+
+Sincerely,
+
+Jason C. Morgan
+
+Encl: Resume
+```
+
+---
+
+## KEY CHANGES MADE:
+
+✅ **Emphasized "coordinate multiple issues"** – mirroring exact job language  
+✅ **Highlighted "staying informed about threats"** –
