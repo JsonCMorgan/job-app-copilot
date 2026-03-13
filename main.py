@@ -1,6 +1,7 @@
 import anthropic
 from dotenv import load_dotenv
 import os
+import datetime
 
 load_dotenv()
 
@@ -41,6 +42,8 @@ def main():
     print("1. Paste job description into this window")
     print("2. Load job description from a text file")
     choice = input("Enter 1 or 2: ")
+    os.makedirs("outputs", exist_ok=True)
+    today_str = datetime.date.today().strftime("%Y-%m-%d")
     if choice == "1":
         print("Paste the job description. Press enter on an empty line when you're done.")
         job_description = []
@@ -52,7 +55,12 @@ def main():
             
         full_job_description = "\n".join(job_description)
         print("Job description loaded successfully.")
-        print(tailor_application(full_job_description))
+        application_text = tailor_application(full_job_description)
+        output_path = os.path.join("outputs", f"application_{today_str}.txt")
+        with open(output_path, "w") as f:
+            f.write(application_text)
+        print(f"Saved to {output_path}")
+        print(application_text)
     elif choice == "2":
         print("You chose to load from a file.")
         file_path = input("Enter the path to the text file: ")
@@ -62,8 +70,13 @@ def main():
         except FileNotFoundError:
             print("File not found. Please check the path and try again.")
             return 
-        print("Job description loaded successfully from file.")
-        print(tailor_application(job_description_text))       
+        application_text = tailor_application(job_description_text)
+        output_path = os.path.join("outputs", f"application_{today_str}.txt")
+        with open(output_path, "w") as f:
+            f.write(application_text)
+        print(f"Saved to {output_path}")
+        print(application_text)
+              
     else:
         print("Invalid choice. Please run the program again.")
     
