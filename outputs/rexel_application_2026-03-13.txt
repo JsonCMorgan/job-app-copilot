@@ -1,0 +1,65 @@
+Company: Rexel
+Job Posting Date: 2026-03-13
+Application Deadline: 2026-04-01
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+```
+Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience in security monitoring, incident response, vulnerability assessment, and secure systems operations. Currently operate within government-regulated IT environments handling sensitive information under strict privacy and security protocols. Combine 20+ years of security supervision, incident investigation, and technical troubleshooting experience with modern cybersecurity training in SIEM workflows, Python automation, and Docker-based security labs. Eager to leverage proven security operations background and recent cybersecurity certification to contribute to Rexel's physical and digital security infrastructure.
+```
+
+---
+
+# 2. FIVE TAILORED BULLET POINTS
+
+**From: Client Service Specialist — Legal Aid Ontario**
+- **Monitor and operate within secure government IT systems daily**, handling highly sensitive client information while adhering to strict privacy protocols, security controls, and regulatory compliance standards
+
+**From: Client Service Specialist — Legal Aid Ontario**
+- **Escalate security incidents and system anomalies** following established procedures, demonstrating strong awareness of risk management and cross-department collaboration in a regulated environment
+
+**From: Customer Solutions Specialist — Rogers Communications**
+- **Investigated and resolved complex technical security incidents** across network infrastructure, analyzed system logs, and applied structured troubleshooting methodologies in high-pressure operational environments
+
+**From: Security Supervisor / Guard**
+- **Led security incident response operations and investigations**, documenting findings, assessing risks, and managing high-stakes situations requiring heightened situational awareness and threat assessment
+
+**From: Security Supervisor / Guard**
+- **Supervised security personnel and coordinated incident management** across multiple facilities, ensuring compliance with security protocols, access control procedures, and emergency response standards
+
+---
+
+# 3. COVER LETTER DRAFT
+
+```
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | linkedin.com/in/jason-morgan-110656289
+
+Hiring Manager
+Rexel
+5600 Keaton Crescent
+Mississauga, ON L5R 3G3
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Junior Security Officer position at Rexel. As a current Legal Aid Ontario staff member with formal security supervision experience and an Advanced Cybersecurity credential from York University, I bring a unique combination of hands-on security operations expertise and modern cybersecurity technical skills that align perfectly with Rexel's need for comprehensive security management.
+
+My background includes five years as a Security Supervisor managing incident response, investigations, and risk assessment across multiple facilities in Ontario. In that role, I led security teams, coordinated emergency responses, documented security incidents, and enforced access control protocols—experience that translates directly to the security operations responsibilities at your Mississauga location. I understand the importance of maintaining vigilant physical security in operational environments where valuable assets and personnel safety are paramount.
+
+Currently, as a Client Service Specialist at Legal Aid Ontario, I work daily within secure, government-regulated IT systems handling highly sensitive information under strict privacy and security protocols. This role has sharpened my ability to follow procedural controls, identify and escalate security concerns, and maintain security awareness in a compliance-driven environment. Combined with my recent completion of York University's Advanced Cybersecurity Program and (ISC)² Certified in Cybersecurity (CC) credential, I bring both traditional security operations knowledge and modern cybersecurity literacy—an increasingly valuable combination as physical and digital security converge.
+
+Additionally, my 21 years at Rogers Communications provided extensive experience in technical troubleshooting, incident investigation, log analysis, and working within complex operational infrastructures—skills that support both physical security systems management and the technical components of modern security operations.
+
+I am particularly drawn to Rexel's position as a world leader in electrical distribution, operating across 38 countries with 2,300 branches. The hybrid work arrangement and permanent, full-time nature of this role align well with my career goals, and the Mississauga location is very accessible from my base in Toronto. I am excited about the opportunity to contribute to Rexel's security posture while continuing to grow within a global organization that values safety, operational excellence, and innovation.
+
+I would welcome the opportunity to discuss how my proven security operations background, technical aptitude, and commitment to maintaining secure environments can benefit Rexel's operations. Thank you for considering my application.
+
+Sincerely,
+
+Jason C. Morgan
+```
+
+---
+
+**Note:** The job description you provided was incomplete (it cut off after "Full job description"). I've tailored these materials toward a **physical security officer role** based on the title "Junior Security Officer" and

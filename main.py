@@ -37,6 +37,13 @@ Please provide:
 Be specific and match the language of the job description.
 """
     return call_claude(prompt)
+def build_header(company_name, job_posting_date, application_deadline):
+    header = (
+        f"Company: {company_name}\n"
+        f"Job Posting Date: {job_posting_date}\n"
+        f"Application Deadline: {application_deadline}\n\n"
+    )
+    return header
 def main():
     print("How would you like to provide the job description?")
     print("1. Paste job description into this window")
@@ -48,11 +55,9 @@ def main():
     job_posting_date = input("Enter the job posting date (YYYY-MM-DD): ")
     application_deadline = input("Enter the application deadline (YYYY-MM-DD): ")
     safe_company = company_name.lower().replace(" ", "_")
-    header = (
-        f"Company: {company_name}\n"
-        f"Job posting date: {job_posting_date}\n"
-        f"Application deadline: {application_deadline}\n\n"
-    )
+    
+    header = build_header(company_name, job_posting_date, application_deadline)
+    
     if choice == "1":
         print("Paste the job description. Press enter on an empty line when you're done.")
         job_description = []
