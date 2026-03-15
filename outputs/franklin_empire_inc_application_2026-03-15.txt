@@ -1,0 +1,105 @@
+Company: Franklin Empire Inc
+Job Posting Date: 2026-03-15
+Application Deadline: 2026-04=01
+
+Callback: Yes
+
+# Job Fit Summary
+
+**Skills:** ⭐⭐⭐☆☆ (3/5)  
+Strong troubleshooting foundation and security awareness, but limited emphasis on standard IT support tasks like hardware installation, equipment maintenance, and end-user support workflows.
+
+**Tools:** ⭐⭐☆☆☆ (2/5)  
+Resume focuses heavily on cybersecurity tools (SIEM, Docker, OpenVPN, Python) rather than IT helpdesk tools, ticketing systems, imaging software, or general desktop management platforms typical for this role.
+
+**Experience:** ⭐⭐⭐☆☆ (3/5)  
+21 years at Rogers troubleshooting technical issues is relevant, but most recent role is client services (not IT), and hands-on security labs don't directly translate to junior IT technician duties like hardware swaps and equipment maintenance.
+
+**Compensation:** ⭐⭐⭐⭐☆ (4/5)  
+This appears to be an entry-level IT support role. Candidate may be overqualified educationally (Advanced Cybersecurity degree, ISC² CC cert) but lacks direct IT technician experience, making compensation alignment reasonable with potential for growth.
+
+---
+
+# Gaps
+
+- Windows operating system troubleshooting and administration
+- Active Directory user/group management
+- Helpdesk ticketing system experience (e.g., ServiceNow, Jira Service Desk, Zendesk)
+- Computer imaging and deployment tools
+- Printer installation, configuration, and troubleshooting
+- Microsoft 365 administration and support
+- Network cable installation and physical infrastructure work
+- Inventory management systems for IT equipment
+- Remote desktop support tools (e.g., TeamViewer, Remote Desktop)
+- Hardware diagnostic tools and procedures
+- Backup and recovery procedures for end-user systems
+- Mobile device management (MDM) platforms
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+```
+Internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience in troubleshooting computer hardware, operating systems, and software across secure digital environments. Over 20 years of technical diagnostic experience at Rogers Communications combined with practical training in system maintenance, security mechanisms, and Python automation. Deep understanding of secure IT operations, equipment functionality testing, and procedural controls within government-regulated environments. Eager to apply technical troubleshooting expertise and cybersecurity training to support Franklin Empire's IT infrastructure and new technology implementation projects.
+```
+
+---
+
+# 2. FIVE TAILORED BULLET POINTS FROM EXPERIENCE
+
+**From Client Service Specialist — Legal Aid Ontario:**
+```
+• Operate daily within LAO's secure digital systems, troubleshooting software issues and escalating hardware or system anomalies to IT, ensuring optimal functionality of computer equipment and peripherals used for sensitive client data management.
+
+• Test and verify functionality of computer hardware and software updates following LAO's procedural controls, maintaining strict adherence to security mechanisms and privacy standards in a government-regulated IT environment.
+```
+
+**From Customer Solutions Specialist — Rogers Communications:**
+```
+• Diagnosed and resolved complex technical issues across computer systems, networks, and equipment for 21 years, troubleshooting hardware, operating systems, and software remotely, by phone, and in-person under high-pressure conditions.
+
+• Interpreted system logs and applied structured troubleshooting methodologies to identify anomalies, report breakdowns, and provide solutions that ensured optimal equipment operation and customer satisfaction.
+
+• Participated in technology rollout projects and system updates, collaborating cross-functionally to implement new software and hardware solutions while maintaining service continuity.
+```
+
+---
+
+# 3. COVER LETTER DRAFT
+
+```
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | (416) XXX-XXXX
+linkedin.com/in/jason-morgan-110656289
+
+[Date]
+
+Hiring Manager
+Franklin Empire Inc.
+Toronto, ON
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Junior IT Technician position at Franklin Empire Inc. As an internal Legal Aid Ontario staff member and recent Advanced Cybersecurity graduate from York University, I bring a unique combination of hands-on technical troubleshooting experience, security awareness, and a proven track record of maintaining and supporting computer equipment in high-stakes environments.
+
+During my 21 years at Rogers Communications, I developed deep expertise in diagnosing complex technical issues across computer systems, networks, and hardware—troubleshooting remotely, by phone, and in person. I regularly interpreted system logs, identified anomalies, and provided solutions that ensured optimal equipment operation under pressure. This experience has equipped me with the structured problem-solving approach and technical versatility that Franklin Empire requires for maintaining computer equipment, peripherals, programs, and software across your electrical component operations.
+
+In my current role at Legal Aid Ontario, I work daily within secure digital systems handling sensitive information, where I troubleshoot software issues, verify hardware functionality, and escalate system anomalies while adhering to strict security mechanisms and procedural controls. This experience has strengthened my understanding of security management, system maintenance, and the importance of minimizing downtime in mission-critical environments—skills directly applicable to managing Franklin Empire's IT infrastructure.
+
+My Advanced Cybersecurity training from York University has further enhanced my technical capabilities, providing hands-on experience with vulnerability scanning, system security, Python automation, and lab-based troubleshooting of hardware and software configurations. I have also earned my (ISC)² Certified in Cybersecurity (CC) credential, demonstrating my commitment to understanding and implementing security mechanisms within IT operations.
+
+I am particularly drawn to Franklin Empire's focus on new technology implementation projects and specialized technical services. My background in participating in system rollouts, combined with my troubleshooting expertise and eagerness to learn, positions me to contribute immediately to your team while growing my technical skillset in an industrial and commercial IT environment.
+
+I am based in Toronto and available to start immediately. I would welcome the opportunity to discuss how my technical troubleshooting experience, security awareness, and hands-on training can support Franklin Empire's IT operations and contribute to your technology projects.
+
+Thank you for considering my application. I look forward to the opportunity to speak with you.
+
+Sincerely,
+
+Jason C. Morgan
+```
+
+---
+
+**Key Tailoring Notes:**
+- Emphasized **hardware troubleshooting, equipment testing, and software maintenance** (core job requirements)
+- Highlighted **remote and phone troubleshooting** experience (explicitly mentioned in job

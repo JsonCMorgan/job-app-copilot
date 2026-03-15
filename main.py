@@ -51,6 +51,11 @@ def score_fit(resume_text, job_description):
     prompt += "\n\nAlso include a section titled 'Gaps' listing skills or tools the job requires that are not clearly shown on the resume. List one per line."
     prompt += f"\n\nHere is the resume:\n{resume_text}\n\nHere is the job description:\n{job_description}"
     return call_claude(prompt)
+def build_output_path(safe_company, today_str):
+    return os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
+def save_application(output_path, header, fit_summary, application_text):
+    with open(output_path, "w") as f:
+        f.write(header + fit_summary + "\n\n" + application_text)
 def main():
     resume_text = read_resume()
     print("How would you like to provide the job description?")
@@ -80,9 +85,8 @@ def main():
         print("Job description loaded successfully.")
         application_text = tailor_application(full_job_description)
         fit_summary = score_fit(resume_text, full_job_description)
-        output_path = os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
-        with open(output_path, "w") as f:
-            f.write(header + fit_summary + "\n\n" + application_text)
+        output_path = build_output_path(safe_company, today_str)
+        save_application(output_path, header, fit_summary, application_text)
         print(f"Saved to {output_path}")
         print(application_text)
     elif choice == "2":
@@ -96,9 +100,8 @@ def main():
             return 
         application_text = tailor_application(job_description_text)
         fit_summary = score_fit(resume_text, job_description_text)
-        output_path = os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
-        with open(output_path, "w") as f:
-            f.write(header + fit_summary + "\n\n" + application_text)
+        output_path = build_output_path(safe_company, today_str)
+        save_application(output_path, header, fit_summary, application_text)
         print(f"Saved to {output_path}")
         print(application_text)
               
