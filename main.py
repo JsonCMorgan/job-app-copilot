@@ -22,6 +22,7 @@ def tailor_application(job_description):
     prompt = f"""
 You are a professional job application assistant.
 Your task is to tailor my resume to the job description.
+observe the formatting of my resume (headings, bullet style, spacing, font, font size, font colour,line spacing, indentation, paragraph structure, headlines, subheadings, body text, etc.)
 
 Here is my resume:
 {resume}
