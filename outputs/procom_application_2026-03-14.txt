@@ -1,0 +1,95 @@
+Company: Procom
+Job Posting Date: 2026-03-14
+Application Deadline: 2026-04-01
+
+# Job Fit Summary
+
+**Skills:** ⭐⭐⭐☆☆ (3/5)  
+Strong foundation in security fundamentals, incident response, and threat analysis. Has security policy understanding and risk assessment experience from Security Supervisor role. However, lacks demonstrated experience in enterprise security policy development and implementation at scale.
+
+**Tools:** ⭐⭐☆☆☆ (2/5)  
+Docker, OpenVPN, and SIEM experience show technical capability, but no demonstrated experience with Zscaler or enterprise proxy technologies. Missing critical tools specific to this role.
+
+**Experience:** ⭐⭐☆☆☆ (2/5)  
+Recent cybersecurity graduate with lab/personal projects rather than professional security analyst experience. Client Service Specialist role shows systems familiarity and privacy awareness, but not security architecture or policy implementation. Long troubleshooting background is relevant but not in security context.
+
+**Compensation:** ⭐⭐☆☆☆ (2/5)  
+Entry-level security professional competing for what appears to be an intermediate-to-senior banking security role requiring specialized proxy/Zscaler expertise and enterprise policy implementation experience. Significant experience gap for contract banking position.
+
+---
+
+# Gaps
+
+**Zscaler platform experience or certification**
+
+**Enterprise proxy architecture and design**
+
+**Web security gateway/filtering technologies**
+
+**Banking or financial services security experience**
+
+**Enterprise security policy development and implementation**
+
+**Stakeholder consultation and requirements gathering in enterprise IT**
+
+**Project leadership in security implementations**
+
+**Network security architecture**
+
+**Large-scale enterprise environment experience**
+
+**Security tools evaluation and vendor management**
+
+**Compliance frameworks relevant to banking (PCI-DSS, SOC 2, etc.)**
+
+**Application-layer security controls**
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+Advanced Cybersecurity graduate from York University with practical experience in security policy development, log analysis, and secure network configurations including OpenVPN deployment. Currently working within Legal Aid Ontario's regulated IT environment, handling sensitive data under strict privacy standards while maintaining awareness of enterprise security controls. Hands-on experience with Docker-based security labs, Python automation, and SIEM workflows. Eager to apply technical security expertise and policy-focused mindset to proxy solution implementation and web security policy development in an enterprise banking environment.
+
+---
+
+# 2. FIVE TAILORED BULLET POINTS
+
+**From Client Service Specialist — Legal Aid Ontario:**
+- Operate daily within enterprise-level secure digital systems managing highly sensitive client information, demonstrating strong understanding of security policies, procedural controls, and compliance requirements in a government-regulated environment
+- Collaborate cross-departmentally to escalate and document system issues, applying structured risk assessment and incident escalation procedures aligned with organizational security standards
+
+**From Personal Security Lab Experience:**
+- Architected and implemented Docker-based security lab environment to simulate network traffic, analyze security events, and develop practical skills in vulnerability detection and security policy enforcement
+- Designed and deployed OpenVPN secure network infrastructure, gaining hands-on experience with encryption protocols, tunneling technologies, and secure access controls relevant to proxy solutions
+
+**From Customer Solutions Specialist — Rogers Communications:**
+- Diagnosed and resolved complex network and system issues by interpreting technical logs and applying structured troubleshooting methodologies, developing strong analytical skills transferable to identifying security risks and mitigation planning
+
+---
+
+# 3. COVER LETTER DRAFT
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the IT Security Analyst - proxy (Zscaler) position with your banking client. As an Advanced Cybersecurity graduate from York University with hands-on experience in security policy implementation, secure network configurations, and enterprise IT environments, I am excited to contribute to your proxy solution design and web security policy development initiatives.
+
+Currently, as a Client Service Specialist at Legal Aid Ontario, I work daily within secure, government-regulated IT systems that handle highly sensitive information under strict privacy and compliance standards. This experience has strengthened my understanding of enterprise security controls, procedural documentation, risk assessment, and the critical importance of security policies in protecting organizational assets. I have developed a keen awareness of how security measures must balance usability with protection—a mindset essential for consulting with stakeholders and implementing proxy policies.
+
+My technical foundation includes practical experience architecting secure network solutions, including designing and deploying an OpenVPN infrastructure to understand encryption, tunneling, and secure access controls. Through Docker-based security labs, I have simulated network environments to practice log analysis, vulnerability detection, and security event monitoring—skills directly applicable to identifying security issues and evaluating proxy solutions. Additionally, my Python scripting and automation experience positions me to support and enhance security-focused tools effectively.
+
+My 21 years at Rogers Communications further developed my ability to diagnose complex technical issues, interpret system logs, and apply structured problem-solving under pressure—capabilities that translate directly to identifying risks and developing mitigation plans. Combined with my formal cybersecurity training and (ISC)² Certified in Cybersecurity (CC) credential, I bring both theoretical knowledge and practical application skills.
+
+I am particularly drawn to this role's focus on writing security policies and consulting with stakeholders to implement enterprise-wide solutions. My experience working within regulated environments has taught me how to translate security requirements into actionable policies while maintaining clear communication across departments. I am committed to the hybrid schedule with four days onsite and am eager to contribute to your team's success in building a robust application proxy solution.
+
+I would welcome the opportunity to discuss how my combination of hands-on security experience, enterprise IT knowledge, and policy-focused approach can add value to this critical project. Thank you for your consideration.
+
+Sincerely,  
+Jason C. Morgan  
+json.c.morgan@gmail.com  
+linkedin.com/in/jason-morgan-110656289
+
+---
+
+**Additional Tips:**
+- Emphasize your willingness to learn Zscaler specifically (consider taking a free Zscaler fundamentals course or webinar before interviews)
+- Be prepared to discuss how your VPN/proxy experience translates to enterprise proxy solutions
+- Highlight your documentation skills—this role specifically mentions delivering documentation
+- Prepare examples of stakeholder collaboration from your LAO role
