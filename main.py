@@ -65,6 +65,7 @@ def main():
     safe_company = company_name.lower().replace(" ", "_")
     
     header = build_header(company_name, job_posting_date, application_deadline)
+    header = header + "Callback: No\n\n"
     
     if choice == "1":
         print("Paste the job description. Press enter on an empty line when you're done.")
