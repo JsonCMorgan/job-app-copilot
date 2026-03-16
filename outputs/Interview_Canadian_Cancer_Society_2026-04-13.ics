@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20260413T020000
+DTEND:20260413T030000
+SUMMARY:Interview at Canadian Cancer Society (First in person Interview)
+LOCATION:145 Marlee Ave, North York, Ontario, M6B 3H3
+DESCRIPTION:Contact: Peta Francis, Email: simplypeta#gmail.com, Phone: 4372266766
+END:VEVENT
+END:VCALENDAR
