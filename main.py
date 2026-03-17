@@ -2,6 +2,7 @@ import anthropic
 from dotenv import load_dotenv
 import os
 import datetime
+import pyperclip
 
 load_dotenv()
 
@@ -61,7 +62,8 @@ def main():
     print("How would you like to provide the job description?")
     print("1. Paste job description into this window")
     print("2. Load job description from a text file")
-    choice = input("Enter 1 or 2: ")
+    print("3. Copy job description from clipboard")
+    choice = input("Enter 1 or 2 or 3: ")
     os.makedirs("outputs", exist_ok=True)
     today_str = datetime.date.today().strftime("%Y-%m-%d")
     company_name = input("Enter the Company Name: ")
@@ -104,7 +106,14 @@ def main():
         save_application(output_path, header, fit_summary, application_text)
         print(f"Saved to {output_path}")
         print(application_text)
-              
+    elif choice == "3":
+        job_description_text = pyperclip.paste()
+        application_text = tailor_application(job_description_text)
+        fit_summary = score_fit(resume_text, job_description_text)
+        output_path = build_output_path(safe_company, today_str)
+        save_application(output_path, header, fit_summary, application_text)
+        print(f"Saved to {output_path}")
+        print(application_text)
     else:
         print("Invalid choice. Please run the program again.")
     

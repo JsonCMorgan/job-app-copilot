@@ -1,0 +1,108 @@
+Company: BENA Fastenings Incorporated
+Job Posting Date: 2026-03-13
+Application Deadline: 2026-04-01
+
+Callback: No
+
+# Job Fit Summary
+
+**Skills:** ⭐⭐⭐☆☆ (3/5)  
+You have foundational cybersecurity skills (SIEM, vulnerability scanning, incident response) and troubleshooting experience, but this role emphasizes **network administration, web server maintenance, and SAP ERP integration** more than security operations. Your Docker labs and VPN deployment show relevant technical aptitude, but practical network/web admin experience is limited.
+
+**Tools:** ⭐⭐☆☆☆ (2/5)  
+The job requires hands-on experience with **SAP ERP systems, web servers, e-commerce platforms, LAN configuration, and network monitoring tools**. Your resume shows Python, Docker, OpenVPN, and SIEM tools, but lacks evidence of web server administration, ERP systems, or production network management tools.
+
+**Experience:** ⭐⭐☆☆☆ (2/5)  
+You have 20+ years of technical troubleshooting (Rogers) and familiarity with secure systems (LAO), but **no documented experience maintaining web servers, administering corporate networks, or working with ERP systems**. The role requires hands-on infrastructure maintenance; your experience is primarily end-user support and lab-based security work.
+
+**Compensation:** ⭐⭐⭐⭐☆ (4/5)  
+$36.00–$36.50/hour ($70-73K annually) is reasonable for someone transitioning into IT infrastructure roles with your background, though you may be slightly underqualified given limited production network/web admin experience.
+
+---
+
+# Gaps
+
+- SAP ERP system administration or integration experience
+- Web server (Apache/IIS/Nginx) maintenance and troubleshooting
+- E-commerce platform management or support
+- Local Area Network (LAN) setup and configuration experience
+- Production network administration (routers, switches, firewalls)
+- Data backup and disaster recovery operations experience
+- Web development or scripting (HTML, CSS, JavaScript, PHP)
+- Network monitoring and optimization tools (beyond SIEM)
+- Hardware installation and evaluation in business environments
+- Active Directory or user/workstation management systems
+- Experience modifying/maintaining live web applications
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+```
+Internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience in network troubleshooting, system administration, security implementation, and Python automation. Proven ability to maintain secure digital systems, diagnose complex technical issues, and work within regulated IT environments handling sensitive data. Skilled in Linux/Ubuntu server environments, Docker-based labs, OpenVPN deployment, vulnerability scanning, and backend development—with direct experience supporting infrastructure that demands continuous availability and strict security protocols.
+```
+
+---
+
+# 2. FIVE TAILORED BULLET POINTS FROM EXPERIENCE
+
+**From: Client Service Specialist — Legal Aid Ontario**
+
+```
+• Operate daily within LAO's secure network infrastructure, troubleshooting workstation connectivity issues and supporting seamless integration with government-regulated digital systems handling highly sensitive client information.
+
+• Apply strict data security procedures and privacy protocols when handling confidential records, demonstrating strong understanding of safeguarding sensitive corporate and client information in compliance with regulatory standards.
+```
+
+**From: Customer Solutions Specialist — Rogers Communications**
+
+```
+• Diagnosed and resolved complex technical issues across network infrastructure and computer systems, interpreting system logs and applying structured troubleshooting methodologies to restore service availability in high-pressure environments.
+
+• Supported hardware and software maintenance for telecommunications systems, responding to user requests for help and information while ensuring minimal downtime and optimal system performance.
+```
+
+**From: Hands-On Security Labs Experience**
+
+```
+• Configured and deployed OpenVPN server on Linux/Ubuntu, implementing network security measures, encryption protocols, and secure remote access connections—directly applicable to setting up LANs and Internet connections for business operations.
+
+• Built Python automation scripts and backend applications focused on data handling, secure coding practices, and system integration, with all projects documented and version-controlled on GitHub.
+```
+
+---
+
+# 3. COVER LETTER DRAFT
+
+```
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | github.com/JsonCMorgan | linkedin.com/in/jason-morgan-110656289
+
+Hiring Manager
+BENA Fastenings Incorporated
+151 Creditview Road
+Woodbridge, ON L4L 9T1
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Web and Computer Technician position at BENA Fastenings Inc. As an Advanced Cybersecurity graduate from York University and current Legal Aid Ontario staff member, I bring a unique combination of hands-on technical expertise, system administration experience, and a deep understanding of maintaining secure, business-critical infrastructure.
+
+In my current role at Legal Aid Ontario, I work daily within secure digital systems that demand continuous availability, strict data security procedures, and seamless integration with government-regulated platforms—experience directly applicable to maintaining your internal network, SAP ERP system, and e-commerce infrastructure. My background includes troubleshooting network connectivity issues, supporting workstations, and applying rigorous privacy and security protocols when handling sensitive information.
+
+My technical foundation is reinforced by practical experience configuring and deploying secure network environments. I have built Docker-based security labs, deployed OpenVPN servers on Linux/Ubuntu for encrypted remote access, and developed Python automation scripts for backend data handling—all documented on GitHub. During my 21 years at Rogers Communications, I diagnosed complex technical issues across network and telecommunications systems, interpreted system logs, and applied structured troubleshooting to restore service availability under pressure. This experience has prepared me to evaluate and install computer hardware, maintain web servers, perform data backups, and respond efficiently to user requests for help.
+
+I am particularly drawn to this role because it combines network administration, web server maintenance, security implementation, and SAP ERP integration—areas where my cybersecurity training, system troubleshooting background, and commitment to continuous learning align perfectly. I am confident in my ability to maintain your internal network, enhance website performance with robust security measures, implement network traffic monitoring software, and ensure disaster recovery operations protect your business continuity.
+
+I am excited about the opportunity to bring my technical skills, security mindset, and hands-on problem-solving approach to BENA Fastenings Inc. I would welcome the chance to discuss how my background maintaining secure digital systems, troubleshooting complex technical issues, and implementing security procedures can contribute to your team.
+
+Thank you for considering my application. I look forward to the opportunity to speak with you.
+
+Sincerely,
+
+Jason C. Morgan
+```
+
+---
+
+**Notes:**
+- The summary now emphasizes **network troubleshooting, system administration, and server environments** (matching their infrastructure focus)
+- Bullet points highlight **network connectivity,
