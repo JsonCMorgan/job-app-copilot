@@ -36,11 +36,34 @@ chosen_filename = display_list[index]
 path = os.path.join(outputs_dir, chosen_filename)
 with open(path, "r") as f:
     application_content = f.read()
-prompt = f"""You are an interviewer for the role in this application. Based on the application below (company, job fit, gaps, tailored summary), ask the candidate one interview question. Be specific to the role. Output only the question, nothing else.
+num_questions = int(input("How many mock interview questions? "))
+for question_num in range(1, num_questions + 1):
+    prompt = f"""You are an interviewer for the role in this application. Based on the application below (company, job fit, gaps, tailored summary), ask the candidate one interview question (Question {question_num} of {num_questions}). Be specific to the role. Output only the question, nothing else.
 
 Application:
 {application_content}
 """
-question = call_claude(prompt)
-print("\nMock interview question:")
-print(question)
+    question = call_claude(prompt)
+    print(f"\nQuestion {question_num} of {num_questions}:")
+    print(question)
+    answer = input("Type your answer (or 'done' to stop): ")
+    if answer.strip().lower() == "done":
+        break
+    feedback_prompt = f"""You are a hiring manager interviewing for this role. Using the application context below, evaluate the candidate's answer to the interview question. Provide:
+
+1) What was strong (1-2 bullets)
+2) What to improve (1-2 bullets)
+3) A better version of the answer (3-6 sentences)
+
+Application:
+{application_content}
+
+Question:
+{question}
+
+Answer:
+{answer}
+"""
+    feedback = call_claude(feedback_prompt)
+    print("\nFeedback:")
+    print(feedback)
