@@ -30,13 +30,31 @@ for filename in output_files:
 display_list = callback_files + other_files
 for i, filename in enumerate(display_list, 1):
     print(f"{i}. {filename}")
-choice = input("Enter the number of the application to mock interview: ")
-index = int(choice) - 1
+while True:
+    choice = input("Enter the number of the application to mock interview: ")
+    try:
+        index = int(choice) - 1
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+        continue
+    if index < 0 or index >= len(display_list):
+        print("Choice out of range. Please enter a valid number.")
+        continue
+    break
 chosen_filename = display_list[index]
 path = os.path.join(outputs_dir, chosen_filename)
 with open(path, "r") as f:
     application_content = f.read()
-num_questions = int(input("How many mock interview questions? "))
+while True:
+    try:
+        num_questions = int(input("How many mock interview questions? "))
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
+        continue
+    if num_questions < 1:
+        print("Please enter at least 1 question.")
+        continue
+    break
 for question_num in range(1, num_questions + 1):
     prompt = f"""You are an interviewer for the role in this application. Based on the application below (company, job fit, gaps, tailored summary), ask the candidate one interview question (Question {question_num} of {num_questions}). Be specific to the role. Output only the question, nothing else.
 
