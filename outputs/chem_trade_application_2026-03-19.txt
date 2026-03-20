@@ -1,0 +1,106 @@
+Company: Chem Trade
+Job Posting Date: 2026-03-19
+Application Deadline: 2026-04-01
+
+Callback: No
+
+# Job Fit Summary
+
+**Skills:** ⭐⭐⭐☆☆ (3/5)  
+Strong foundational cybersecurity skills (SIEM, vulnerability scanning, incident response, Python) but lacks governance-specific expertise like GRC frameworks, policy development, risk assessment methodologies, and compliance program management that are central to this role.
+
+**Tools:** ⭐⭐☆☆☆ (2/5)  
+Has hands-on experience with SIEM, Docker, OpenVPN, and Linux, but missing critical tools for this role including GRC platforms, risk management software, compliance tracking systems, and OT/ICS security tools. No mention of audit/documentation platforms.
+
+**Experience:** ⭐⭐☆☆☆ (2/5)  
+Recent cybersecurity graduate with lab experience but lacks the required 3-7 years of professional cybersecurity work experience. No demonstrated experience in governance, risk management, compliance, audit support, policy development, or working in manufacturing/industrial environments. Current LAO role shows privacy awareness but is primarily client services, not cybersecurity.
+
+**Compensation:** ⭐⭐⭐⭐⭐ (5/5)  
+The $95,000-$110,000 salary range appears appropriate for someone transitioning into cybersecurity, though the role typically expects more experienced candidates at this compensation level.
+
+---
+
+# Gaps
+
+**3-7 years of professional cybersecurity experience (has ~1 year in adjacent role)**
+
+**Cybersecurity Governance, Risk, and Compliance (GRC) experience**
+
+**Policy and standards development experience**
+
+**Risk assessment and risk management methodology experience**
+
+**Audit support and compliance documentation experience**
+
+**NIST CSF framework implementation experience**
+
+**ISO 27001 knowledge and implementation**
+
+**CIS Controls familiarity**
+
+**Manufacturing or industrial environment experience**
+
+**Operational Technology (OT) or Industrial Control Systems (ICS) security knowledge**
+
+**NIST 800-171 or ISA/IEC 62443 standards knowledge**
+
+**Third-party/vendor risk assessment experience**
+
+**Relevant certifications (CompTIA Security+, CISA, CRISC, CISSP, ISO 27001 Lead Implementer/Auditor)**
+
+**GRC tools and platforms experience**
+
+**Security metrics and reporting for leadership**
+
+**Control framework and policy management experience**
+
+**Cross-functional collaboration with IT, OT, Operations teams in a corporate setting**
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+Internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience in SIEM workflows, vulnerability scanning, risk assessment, and Python automation. Deep understanding of governance frameworks, privacy standards, compliance documentation, and secure digital processes developed through work in highly regulated government environments. Passionate about applying cybersecurity governance, risk, and compliance (GRC) expertise to strengthen security posture across IT and OT environments while supporting cross-functional collaboration and continuous improvement initiatives.
+
+---
+
+# 2. FIVE TAILORED BULLET POINTS FROM EXPERIENCE
+
+**From Client Service Specialist — Legal Aid Ontario:**
+
+• Operate daily within LAO's secure digital systems handling highly sensitive client information, maintaining strict adherence to privacy standards, regulatory requirements, and documentation controls—experience directly applicable to compliance evidence collection and governance frameworks.
+
+• Collaborate cross-functionally with multiple departments to escalate system issues and ensure procedural controls are followed, demonstrating strong stakeholder engagement skills essential for partnering with IT, OT, Operations, and business teams.
+
+• Apply risk awareness principles daily when managing sensitive client data within a government-regulated IT environment, strengthening ability to assess and communicate cybersecurity risks in business terms.
+
+**From Customer Solutions Specialist — Rogers Communications:**
+
+• Diagnosed complex technical issues across networks and systems by interpreting logs and applying structured troubleshooting methodologies in high-pressure environments—skills transferable to SIEM alert monitoring, security tool management, and incident response coordination.
+
+• Maintained detailed documentation of technical issues, resolutions, and escalation procedures, demonstrating the attention to detail and accuracy required for audit preparation, compliance evidence collection, and security metrics reporting.
+
+---
+
+# 3. COVER LETTER DRAFT
+
+**Jason C. Morgan**  
+Toronto, Ontario  
+json.c.morgan@gmail.com | linkedin.com/in/jason-morgan-110656289  
+
+**Hiring Manager**  
+Chemtrade  
+155 Gordon Baker Rd Ste 300  
+Toronto, ON M2H 3N5  
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the **Security Generalist – Cybersecurity Governance** position at Chemtrade. As an Advanced Cybersecurity graduate from York University and current Legal Aid Ontario staff member with hands-on experience in SIEM workflows, vulnerability scanning, risk assessment, and compliance within highly regulated environments, I am excited about the opportunity to strengthen Chemtrade's cybersecurity posture across IT and OT systems.
+
+My professional experience has provided me with a deep understanding of governance, risk, and compliance principles. At Legal Aid Ontario, I work daily within secure digital systems managing highly sensitive client information under strict privacy standards and regulatory requirements. This role has strengthened my ability to follow procedural controls, maintain documentation accuracy for compliance purposes, and collaborate cross-functionally with multiple departments—skills that align directly with your need for someone who can partner with IT, OT, Operations, and business teams to ensure security controls meet both regulatory and customer requirements.
+
+Through my Advanced Cybersecurity Program at York University and (ISC)² Certified in Cybersecurity (CC) credential, I have developed strong knowledge of cybersecurity frameworks including NIST CSF, ISO 27001, and CIS Controls. My hands-on security lab experience includes SIEM monitoring, vulnerability detection, incident response workflows, and Python automation—all directly applicable to supporting security tool management, SIEM alert monitoring, and incident response coordination. Additionally, my 21 years at Rogers Communications honed my ability to diagnose complex technical issues, interpret logs, and maintain detailed documentation under pressure—experience that translates directly to preparing security metrics, audit evidence, and governance reports for leadership.
+
+I am particularly drawn to Chemtrade's commitment to safety, sustainability, and environmental stewardship, and I appreciate your focus on creating an inclusive workplace where diverse perspectives drive innovation. Your emphasis on continuous improvement and governance maturity roadmaps resonates strongly with my proactive approach to identifying process enhancements and my passion for staying current on evolving cybersecurity regulations and industry best practices.
+
+I would welcome the opportunity to bring my governance mindset, risk awareness, attention to detail, and cross-functional collaboration skills to Chemtrade's Cybersecurity team. I am confident that my combination of hands-on technical security experience, compliance background in regulated environments, and understanding of policy management would enable me to make meaningful contributions to your cybersecurity governance initiatives.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my background aligns with Chemtrade's needs and how I can contribute to strengthening your security pos
