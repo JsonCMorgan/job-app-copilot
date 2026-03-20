@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 import os
 import datetime
 import pyperclip
+import re
+from typing import Optional
 
 load_dotenv()
 
@@ -52,6 +54,14 @@ def score_fit(resume_text, job_description):
     prompt += "\n\nAlso include a section titled 'Gaps' listing skills or tools the job requires that are not clearly shown on the resume. List one per line."
     prompt += f"\n\nHere is the resume:\n{resume_text}\n\nHere is the job description:\n{job_description}"
     return call_claude(prompt)
+def sanitize_company_for_filename(company_name: str) -> Optional[str]:
+    if not company_name or not company_name.strip():
+        return None
+    safe = re.sub(r'[<>:"/\\|?*.\s]', '_', company_name.strip())
+    safe = re.sub(r'_+', '_', safe)
+    safe = safe.strip('_')
+    return safe.lower() if safe else None
+
 def build_output_path(safe_company, today_str):
     return os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
 def save_application(output_path, header, fit_summary, application_text):
@@ -66,10 +76,15 @@ def main():
     choice = input("Enter 1 or 2 or 3: ")
     os.makedirs("outputs", exist_ok=True)
     today_str = datetime.date.today().strftime("%Y-%m-%d")
-    company_name = input("Enter the Company Name: ")
+    while True:
+        company_name = input("Enter the Company Name: ")
+        safe_company = sanitize_company_for_filename(company_name)
+        if not safe_company:
+            print("Invalid company name. Avoid path characters (/, \\, ..) and ensure it's not empty.")
+            continue
+        break
     job_posting_date = input("Enter the job posting date (YYYY-MM-DD): ")
     application_deadline = input("Enter the application deadline (YYYY-MM-DD): ")
-    safe_company = company_name.lower().replace(" ", "_")
     
     header = build_header(company_name, job_posting_date, application_deadline)
     header = header + "Callback: No\n\n"
