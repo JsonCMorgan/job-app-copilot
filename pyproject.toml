@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=78.1.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-app-copilot"
+version = "0.1.0"
+description = "A Python CLI that helps you tailor job applications, track callbacks, and practice interviews using Claude AI."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Jason Morgan" }
+]
+keywords = ["job", "resume", "claude", "anthropic", "interview", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "anthropic>=0.18.0",
+    "python-dotenv>=1.0.0",
+    "pyperclip>=1.8.0",
+    "ddgs>=9.0.0",
+    # Transitive dep constraints to address known vulnerabilities (pip-audit)
+    "certifi>=2024.7.4",
+    "idna>=3.7",
+    "urllib3>=2.6.3",
+    "requests>=2.32.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pip-audit"]
+
+[project.urls]
+Homepage = "https://github.com/JsonCMorgan/job-app-copilot"
+Repository = "https://github.com/JsonCMorgan/job-app-copilot"
+
+[project.scripts]
+job-app-copilot = "job_app_copilot.main:main"
+job-app-mock-interview = "job_app_copilot.mock_interview:main"
+job-app-mark-callback = "job_app_copilot.mark_callback:main"
+job-app-create-event = "job_app_copilot.create_interview_event:main"
+job-app-analyze-gaps = "job_app_copilot.analyze_gaps:main"
+job-app-research = "job_app_copilot.research_company:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["job_app_copilot*"]

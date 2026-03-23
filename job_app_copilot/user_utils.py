@@ -1,10 +1,30 @@
 """
 Multi-user support - each user has their own resumes/ and outputs/ under users/{name}/.
+Uses project directory when running from source; ~/.job-app-copilot when installed.
 """
 import os
 import re
 import shutil
 from typing import Tuple
+
+from job_app_copilot.secure_utils import ensure_secure_dir_permissions
+
+
+def get_app_root() -> str:
+    """Base directory for user data (public for verify/setup)."""
+    return _get_app_root()
+
+
+def _get_app_root() -> str:
+    """Base directory for user data. Uses home dir when installed (site-packages)."""
+    this_file = os.path.abspath(__file__)
+    pkg_dir = os.path.dirname(this_file)
+    parent = os.path.dirname(pkg_dir)
+    # When installed, package lives in site-packages/job_app_copilot/
+    if "site-packages" in parent or "dist-packages" in parent:
+        return os.path.join(os.path.expanduser("~"), ".job-app-copilot")
+    # Editable install or running from repo: use repo root (parent of job_app_copilot)
+    return parent
 
 
 def _sanitize_username(name: str) -> str:
@@ -21,10 +41,15 @@ def get_user_paths() -> Tuple[str, str]:
     Prompt user to select or create profile. Returns (resumes_dir, outputs_dir).
     Creates users/{name}/resumes/ and users/{name}/outputs/.
     """
-    base = os.path.dirname(os.path.abspath(__file__))
+    base = get_app_root()
     users_dir = os.path.join(base, "users")
     legacy_outputs = os.path.join(base, "outputs")
     legacy_resumes = os.path.join(base, "resumes")
+
+    # Ensure base dir exists with restrictive permissions when we create it
+    if not os.path.isdir(base):
+        os.makedirs(base, mode=0o700, exist_ok=True)
+        ensure_secure_dir_permissions(base)
 
     # On first run, create default profiles: jason and peta
     if not os.path.isdir(users_dir) or not os.listdir(users_dir):
@@ -70,8 +95,10 @@ def get_user_paths() -> Tuple[str, str]:
 
     resumes_dir = os.path.join(users_dir, username, "resumes")
     outputs_dir = os.path.join(users_dir, username, "outputs")
-    os.makedirs(resumes_dir, exist_ok=True)
-    os.makedirs(outputs_dir, exist_ok=True)
+    os.makedirs(resumes_dir, mode=0o700, exist_ok=True)
+    os.makedirs(outputs_dir, mode=0o700, exist_ok=True)
+    ensure_secure_dir_permissions(resumes_dir)
+    ensure_secure_dir_permissions(outputs_dir)
 
     # One-time migration: if user's outputs empty and legacy outputs exist, offer to copy
     if not os.listdir(outputs_dir) and os.path.isdir(legacy_outputs):
