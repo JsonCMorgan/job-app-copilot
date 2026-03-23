@@ -9,6 +9,9 @@ from typing import Optional
 load_dotenv()
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
+if not api_key:
+    print("Error: ANTHROPIC_API_KEY not found. Add it to your .env file.")
+    exit(1)
 client = anthropic.Anthropic(api_key=api_key)
 def read_resume():
     with open("resumes/master_resume.txt", "r") as f:
@@ -77,7 +80,11 @@ def main():
     print("1. Paste job description into this window")
     print("2. Load job description from a text file")
     print("3. Copy job description from clipboard")
-    choice = input("Enter 1 or 2 or 3: ")
+    while True:
+        choice = input("Enter 1 or 2 or 3: ")
+        if choice in ("1", "2", "3"):
+            break
+        print("Invalid choice. Please enter 1, 2, or 3.")
     os.makedirs("outputs", exist_ok=True)
     today_str = datetime.date.today().strftime("%Y-%m-%d")
     while True:

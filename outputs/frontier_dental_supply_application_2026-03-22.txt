@@ -1,0 +1,121 @@
+Company: Frontier Dental Supply
+Job Posting Date: 2026-03-22
+Application Deadline: 2026-04-01
+
+Callback: No
+
+# Job Fit Summary
+
+**Skills:** ⭐⭐ (2/5)  
+The resume shows foundational cybersecurity knowledge (SIEM, vulnerability scanning, incident response) and some relevant security concepts, but lacks the required infrastructure administration experience. Limited evidence of networking, cloud operations, or enterprise security platform management at a professional level.
+
+**Tools:** ⭐⭐ (2/5)  
+Resume demonstrates Docker, OpenVPN, Python, Linux/Ubuntu, and GitHub experience, but is missing most critical tools required: Microsoft 365 administration, Azure, AWS, Microsoft Defender, firewalls, SQL databases, ERP systems, SFTP servers, and VoIP platforms. Tool experience appears largely lab-based rather than production environment.
+
+**Experience:** ⭐⭐ (2/5)  
+The candidate has 20+ years of professional work experience but lacks the required 5-7+ years in IT infrastructure or systems administration roles. Current and previous roles focus on client services and technical troubleshooting rather than infrastructure management, cloud administration, or cybersecurity operations in an enterprise IT environment.
+
+**Compensation:** ⭐⭐⭐⭐⭐ (5/5)  
+The $80,000–$100,000 salary range appears aligned with the candidate's career transition goals and geographic location (Toronto/Markham area).
+
+---
+
+# Gaps
+
+**Required Skills & Experience Not Clearly Shown:**
+
+- 5-7+ years of IT infrastructure or systems administration experience
+- Microsoft 365 administration (Entra ID/Azure AD, Exchange Online, SharePoint)
+- Azure cloud infrastructure management and administration
+- AWS cloud infrastructure management and administration
+- Enterprise networking management (firewalls, VPNs, virtual networks) in production environments
+- Microsoft Defender administration and enterprise security platform management
+- SFTP server administration and secure file transfer process management
+- SQL database maintenance, backups, and troubleshooting
+- ERP system support (Acumatica or similar platforms)
+- VoIP/cloud telephony platform administration (RingCentral or similar)
+- L1-L2 IT helpdesk support in a business environment
+- User provisioning and access management in enterprise environments
+- Endpoint management at enterprise scale
+- Penetration testing coordination with external vendors
+- Security awareness training program development and delivery
+- Simulated phishing campaign management
+- Production environment systems administration experience
+- PowerShell or automation scripting in production environments
+
+# 1. TAILORED PROFESSIONAL SUMMARY
+
+```
+Internal Legal Aid Ontario staff member and Advanced Cybersecurity graduate from York University with hands-on experience in SIEM workflows, VPN deployment, Python automation, and secure system operations. Experienced managing sensitive data within enterprise digital systems while maintaining strict privacy and security standards. Strong foundation in vulnerability scanning, Docker-based security labs, endpoint security, and incident response workflows. Passionate about applying cybersecurity training and technical troubleshooting expertise to cloud infrastructure management, security monitoring, and IT operations in fast-growing organizations.
+```
+
+---
+
+# 2. FIVE TAILORED BULLET POINT REWRITES
+
+**From: Client Service Specialist — Legal Aid Ontario**
+
+*Original:*
+> Operate daily within LAO's secure digital systems handling highly sensitive client information under strict privacy and documentation standards.
+
+*Tailored:*
+> **Administer secure digital systems handling sensitive client data, maintaining strict privacy compliance and enforcing access controls in a government-regulated IT environment aligned with enterprise security standards.**
+
+---
+
+*Original:*
+> Experienced in following procedural controls, escalating system issues, and working within a government-regulated IT environment.
+
+*Tailored:*
+> **Provide L1 technical support by troubleshooting system issues, managing user access provisioning, and escalating incidents following documented procedures in a secure enterprise environment.**
+
+---
+
+*Original:*
+> Regularly works within systems that manage highly sensitive client data, reinforcing strong awareness of privacy, risk, and secure handling practices.
+
+*Tailored:*
+> **Monitor and maintain secure file handling processes and access management practices, ensuring compliance with privacy policies and security protocols across enterprise systems.**
+
+---
+
+**From: Customer Solutions Specialist — Rogers Communications**
+
+*Original:*
+> Diagnosed complex technical issues across networks and systems, interpreted logs, and applied structured troubleshooting in high-pressure environments.
+
+*Tailored:*
+> **Diagnosed and resolved complex technical issues across network and cloud-based systems by interpreting system logs, applying structured troubleshooting methodologies, and providing L1–L2 support to maintain service reliability.**
+
+---
+
+**From: Hands-On Security Labs Experience - OpenVPN Secure Network Deployment**
+
+*Original:*
+> Configured and deployed VPN server to gain practical experience with encryption, tunneling, and secure communication protocols.
+
+*Tailored:*
+> **Configured and deployed OpenVPN infrastructure to gain hands-on experience managing VPN connectivity, encryption protocols, and secure remote access—directly applicable to enterprise networking and cloud connectivity management.**
+
+---
+
+# 3. COVER LETTER DRAFT
+
+```
+Jason C. Morgan
+Toronto, Ontario
+json.c.morgan@gmail.com | linkedin.com/in/jason-morgan-110656289
+
+Hiring Manager
+Frontier Dental Supply
+10 Aviva Way, Markham, ON
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the IT Infrastructure & Security Specialist position at Frontier Dental Supply. As an internal Legal Aid Ontario staff member and recent Advanced Cybersecurity graduate from York University, I bring a unique combination of hands-on security training, enterprise system experience, and technical troubleshooting expertise that aligns directly with your requirements for managing cloud infrastructure, security operations, and IT support.
+
+In my current role as Client Service Specialist at Legal Aid Ontario, I operate daily within secure enterprise systems handling highly sensitive client information under strict privacy and regulatory standards. This experience has given me practical knowledge of access controls, secure file handling, user provisioning, and incident escalation—skills directly transferable to managing Microsoft 365 environments, Entra ID, and enterprise security platforms like Microsoft Defender. My familiarity with government-regulated IT environments has instilled a disciplined approach to security posture maintenance, policy enforcement, and cross-department collaboration that will serve Frontier well as you strengthen your security operations.
+
+My technical foundation is reinforced by extensive hands-on lab work and certifications. I have configured OpenVPN servers to understand VPN connectivity and secure tunneling protocols, built Docker-based SIEM environments to practice log analysis and incident response, and completed Python automation projects documented on GitHub. I hold the (ISC)² Certified in Cybersecurity (CC) credential and have completed York University's Advanced Cybersecurity Program, covering vulnerability scanning, endpoint security, patch management, and threat analysis—all directly applicable to administering Microsoft Defender, investigating security alerts, and supporting vulnerability remediation efforts.
+
+During my 21 years at Rogers Communications, I honed my ability to diagnose complex technical issues across networks and cloud-based systems, interpret logs
