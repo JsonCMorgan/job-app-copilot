@@ -6,6 +6,7 @@ A Python CLI that helps you tailor job applications, track callbacks, and practi
 
 ## Features
 
+- **Multi-user support** — Each user has their own profile (`users/{name}/`): resume, applications, research, callbacks
 - **Tailored applications** — Paste a job description and get a tailored resume summary, bullet rewrites, and cover letter draft
 - **Job fit scoring** — Automatically scores your resume against the job (Skills, Tools, Experience, Compensation) and identifies gaps
 - **Application tracking** — Saves each application with company, dates, and callback status
@@ -13,6 +14,8 @@ A Python CLI that helps you tailor job applications, track callbacks, and practi
 - **Callback tracking** — Mark applications when you get a callback
 - **Interview calendar** — Generate .ics files for interview scheduling
 - **Gap analysis** — Analyzes gaps across applications to prioritize learning
+- **Company research** — Searches web for company news/culture, filters for job relevance, summarizes
+- **Email output** — Option to email the output to yourself (main.py, research_company.py, mock_interview.py, create_interview_event.py)
 
 ---
 
@@ -22,6 +25,7 @@ A Python CLI that helps you tailor job applications, track callbacks, and practi
 - **Anthropic Claude** (claude-sonnet-4-5) — resume tailoring, scoring, mock interviews
 - **python-dotenv** — environment variable management
 - **pyperclip** — clipboard support for job descriptions
+- **ddgs** — web search for company research (free, no API key)
 
 ---
 
@@ -43,8 +47,14 @@ A Python CLI that helps you tailor job applications, track callbacks, and practi
    - Add: `ANTHROPIC_API_KEY=your_key_here`
    - Get a key at [console.anthropic.com](https://console.anthropic.com)
 
+4. **(Optional) Email output** — At the end of runs, you can optionally email the output to yourself:
+   - Add to `.env`: `EMAIL_SENDER=your@gmail.com` and `EMAIL_APP_PASSWORD=your_app_password`
+   - Gmail: create an [App Password](https://myaccount.google.com/apppasswords) (requires 2FA)
+
 4. **Add your resume**
-   - Create `resumes/master_resume.txt` with your resume content
+   - On first run, profiles for **jason** and **peta** are created
+   - Select your name, then add `users/{yourname}/resumes/master_resume.txt` with your resume
+   - (Or copy from `resumes/master_resume.txt` when prompted)
 
 ---
 
@@ -57,6 +67,7 @@ A Python CLI that helps you tailor job applications, track callbacks, and practi
 | Mark callback | `python mark_callback.py` | Mark an application as "Callback: Yes" |
 | Create calendar event | `python create_interview_event.py` | Generate .ics file for an interview |
 | Analyze gaps | `python analyze_gaps.py` | See which gaps appear most across applications |
+| Company research | `python research_company.py` | Search web for company info, summarize for interview prep |
 
 ---
 
@@ -81,9 +92,16 @@ job-app-copilot/
 ├── mark_callback.py        # Mark applications as callback
 ├── create_interview_event.py  # Generate .ics calendar files
 ├── analyze_gaps.py         # Gap analysis across applications
-├── resumes/
-│   └── master_resume.txt   # Your resume (create this)
-├── outputs/                # Application files and generated outputs
+├── research_company.py      # Web search + Claude summary for company research
+├── user_utils.py           # Multi-user profile selection
+├── email_utils.py          # Optional email output
+├── users/                  # Per-user data (not in repo)
+│   └── {name}/
+│       ├── resumes/
+│       │   └── master_resume.txt
+│       └── outputs/        # Applications, research, .ics files
+├── resumes/                # Legacy (migrate to users/{name}/)
+├── outputs/                # Legacy (migrate to users/{name}/)
 └── .env                    # API key (create this, not in repo)
 ```
 

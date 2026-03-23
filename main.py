@@ -6,6 +6,9 @@ import pyperclip
 import re
 from typing import Optional
 
+from email_utils import offer_email_output
+from user_utils import get_user_paths
+
 load_dotenv()
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
@@ -13,8 +16,12 @@ if not api_key:
     print("Error: ANTHROPIC_API_KEY not found. Add it to your .env file.")
     exit(1)
 client = anthropic.Anthropic(api_key=api_key)
-def read_resume():
-    with open("resumes/master_resume.txt", "r") as f:
+def read_resume(resumes_dir: str) -> str:
+    path = os.path.join(resumes_dir, "master_resume.txt")
+    if not os.path.isfile(path):
+        print(f"Resume not found. Add master_resume.txt to {resumes_dir}")
+        exit(1)
+    with open(path, "r") as f:
         return f.read()
 def call_claude(prompt):
     message = client.messages.create(
@@ -23,8 +30,8 @@ def call_claude(prompt):
         messages=[{"role": "user", "content": prompt}]
     )
     return message.content[0].text
-def tailor_application(job_description):
-    resume = read_resume()
+def tailor_application(job_description, resumes_dir: str):
+    resume = read_resume(resumes_dir)
     prompt = f"""
 You are a professional job application assistant.
 Your task is to tailor my resume to the job description.
@@ -69,13 +76,14 @@ def parse_date(date_str: str) -> Optional[datetime.date]:
         return datetime.datetime.strptime(date_str.strip(), "%Y-%m-%d").date()
     except ValueError:
         return None
-def build_output_path(safe_company, today_str):
-    return os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
+def build_output_path(safe_company, today_str, outputs_dir: str):
+    return os.path.join(outputs_dir, f"{safe_company}_application_{today_str}.txt")
 def save_application(output_path, header, fit_summary, application_text):
     with open(output_path, "w") as f:
         f.write(header + fit_summary + "\n\n" + application_text)
 def main():
-    resume_text = read_resume()
+    resumes_dir, outputs_dir = get_user_paths()
+    resume_text = read_resume(resumes_dir)
     print("How would you like to provide the job description?")
     print("1. Paste job description into this window")
     print("2. Load job description from a text file")
@@ -85,7 +93,6 @@ def main():
         if choice in ("1", "2", "3"):
             break
         print("Invalid choice. Please enter 1, 2, or 3.")
-    os.makedirs("outputs", exist_ok=True)
     today_str = datetime.date.today().strftime("%Y-%m-%d")
     while True:
         company_name = input("Enter the Company Name: ")
@@ -127,12 +134,13 @@ def main():
             
         full_job_description = "\n".join(job_description)
         print("Job description loaded successfully.")
-        application_text = tailor_application(full_job_description)
+        application_text = tailor_application(full_job_description, resumes_dir)
         fit_summary = score_fit(resume_text, full_job_description)
-        output_path = build_output_path(safe_company, today_str)
+        output_path = build_output_path(safe_company, today_str, outputs_dir)
         save_application(output_path, header, fit_summary, application_text)
         print(f"Saved to {output_path}")
         print(application_text)
+        offer_email_output(header + fit_summary + "\n\n" + application_text, f"Job Application - {company_name}")
     elif choice == "2":
         print("You chose to load from a file.")
         file_path = input("Enter the path to the text file: ")
@@ -142,20 +150,22 @@ def main():
         except FileNotFoundError:
             print("File not found. Please check the path and try again.")
             return 
-        application_text = tailor_application(job_description_text)
+        application_text = tailor_application(job_description_text, resumes_dir)
         fit_summary = score_fit(resume_text, job_description_text)
-        output_path = build_output_path(safe_company, today_str)
+        output_path = build_output_path(safe_company, today_str, outputs_dir)
         save_application(output_path, header, fit_summary, application_text)
         print(f"Saved to {output_path}")
         print(application_text)
+        offer_email_output(header + fit_summary + "\n\n" + application_text, f"Job Application - {company_name}")
     elif choice == "3":
         job_description_text = pyperclip.paste()
-        application_text = tailor_application(job_description_text)
+        application_text = tailor_application(job_description_text, resumes_dir)
         fit_summary = score_fit(resume_text, job_description_text)
-        output_path = build_output_path(safe_company, today_str)
+        output_path = build_output_path(safe_company, today_str, outputs_dir)
         save_application(output_path, header, fit_summary, application_text)
         print(f"Saved to {output_path}")
         print(application_text)
+        offer_email_output(header + fit_summary + "\n\n" + application_text, f"Job Application - {company_name}")
     else:
         print("Invalid choice. Please run the program again.")
     
