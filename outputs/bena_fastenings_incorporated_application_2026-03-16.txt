@@ -2,7 +2,7 @@ Company: BENA Fastenings Incorporated
 Job Posting Date: 2026-03-13
 Application Deadline: 2026-04-01
 
-Callback: No
+Callback: Yes
 
 # Job Fit Summary
 

@@ -3,6 +3,9 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 api_key = os.getenv("ANTHROPIC_API_KEY")
+if not api_key:
+    print("Error: ANTHROPIC_API_KEY not found. Add it to your .env file.")
+    exit(1)
 client = anthropic.Anthropic(api_key=api_key)
 
 def call_claude(prompt):

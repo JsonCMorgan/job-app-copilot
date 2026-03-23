@@ -6,8 +6,17 @@ if not output_files:
     exit()
 for i, filename in enumerate(output_files, 1):
     print(f"{i}. {filename}")
-choice = input("Enter the number of the application to mark as callback: ")
-index = int(choice) - 1
+while True:
+    choice = input("Enter the number of the application to mark as callback: ")
+    try:
+        index = int(choice) - 1
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+        continue
+    if index < 0 or index >= len(output_files):
+        print("Choice out of range. Please enter a valid number.")
+        continue
+    break
 chosen_filename = output_files[index]
 path = os.path.join(outputs_dir, chosen_filename)
 with open(path, "r") as f:

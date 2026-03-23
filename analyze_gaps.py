@@ -4,6 +4,9 @@ import anthropic
 
 load_dotenv()
 api_key = os.getenv("ANTHROPIC_API_KEY")
+if not api_key:
+    print("Error: ANTHROPIC_API_KEY not found. Add it to your .env file.")
+    exit(1)
 client = anthropic.Anthropic(api_key=api_key)
 
 # Path to outputs folder: same folder as this script (works no matter where you run from)
