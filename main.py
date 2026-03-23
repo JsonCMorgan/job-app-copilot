@@ -61,7 +61,11 @@ def sanitize_company_for_filename(company_name: str) -> Optional[str]:
     safe = re.sub(r'_+', '_', safe)
     safe = safe.strip('_')
     return safe.lower() if safe else None
-
+def parse_date(date_str: str) -> Optional[datetime.date]:
+    try:
+        return datetime.datetime.strptime(date_str.strip(), "%Y-%m-%d").date()
+    except ValueError:
+        return None
 def build_output_path(safe_company, today_str):
     return os.path.join("outputs", f"{safe_company}_application_{today_str}.txt")
 def save_application(output_path, header, fit_summary, application_text):
@@ -83,9 +87,25 @@ def main():
             print("Invalid company name. Avoid path characters (/, \\, ..) and ensure it's not empty.")
             continue
         break
-    job_posting_date = input("Enter the job posting date (YYYY-MM-DD): ")
-    application_deadline = input("Enter the application deadline (YYYY-MM-DD): ")
-    
+    while True:
+        job_posting_date = input("Enter the job posting date (YYYY-MM-DD): ")
+        if job_posting_date:
+            job_posting_date = parse_date(job_posting_date)
+            if job_posting_date:
+                break
+            print("Invalid date format. Please enter a valid date (YYYY-MM-DD).")
+        else:
+            print("Please enter a valid date.")
+    while True:
+        application_deadline = input("Enter the application deadline (YYYY-MM-DD): ")
+        if application_deadline:
+            application_deadline = parse_date(application_deadline)
+            if application_deadline:
+                break
+            print("Invalid date format. Please enter a valid date (YYYY-MM-DD).")
+        else:
+            print("Please enter a valid date.")
+
     header = build_header(company_name, job_posting_date, application_deadline)
     header = header + "Callback: No\n\n"
     
