@@ -56,3 +56,6 @@ job-app-research = "job_app_copilot.research_company:main"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["job_app_copilot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

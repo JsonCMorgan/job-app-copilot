@@ -44,6 +44,12 @@ pip-audit                          # Verify no known vulnerabilities
 
 Run `pip install --upgrade pip` if pip-audit reports pip vulnerabilities.
 
+### Running tests
+
+```bash
+pytest
+```
+
 ### Option A: Install from GitHub
 
 ```bash
