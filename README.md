@@ -1,5 +1,7 @@
 # Job App Copilot
 
+> **Not part of my public cyber portfolio.** For SOC, detection, and lab work, start at [github.com/JsonCMorgan](https://github.com/JsonCMorgan) and the **pinned repositories** (`boundry-ai-soc-platform`, `soc-detection-rules`, `security-onion-lab`, `juice-shop-lab`).
+
 A Python CLI that helps you tailor job applications, track callbacks, and practice interviews using Claude AI.
 
 ---
